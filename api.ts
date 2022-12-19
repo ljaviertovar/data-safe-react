@@ -29,4 +29,4 @@ app.get("/api/weather", (req: Request, res: Response) => {
 		})
 })
 
-app.listen(process.env.PORT, () => console.log(`Server on port ${process.env.PORT || 3001}`))
+app.listen(process.env.VITE_PORT, () => console.log(`Server on port ${process.env.VITE_PORT || 3001}`))
